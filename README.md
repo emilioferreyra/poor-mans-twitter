@@ -22,3 +22,9 @@ The following stack elements MUST be used EXCLUSIVELY. If an application or libr
 ## Api Root
 
 http://127.0.0.1:8000/api/
+
+## Admin site Access
+
+http://127.0.0.1:8000/admin/
+user: admin
+password:admin1234 (complicated and secure password).
