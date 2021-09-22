@@ -16,3 +16,5 @@ The following stack elements MUST be used EXCLUSIVELY. If an application or libr
 * Django 3.0+ (backend)
 * Django Rest Framework
 * SQLite (django default settings)
+
+**Note**: To achieve asynchronous I use ASGI server using uvicorn change the runserver command to run the Django application as an ASGI instead of WSGI. (For production server we can use celery and on a docker container).
